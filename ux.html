@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/bfavi.png">
+    <link rel="stylesheet" href="path/to/your/boxicons.css"> <!-- Include the Boxicons CSS file -->
+
+    <style>
+        body {
+            text-align: center;
+            margin: 20px; /* Add margin for space around the content */
+            background: #1f242d;
+            color: #fff;
+        }
+
+        .heading {
+            font-size: 80px; /* Adjust the font size as needed */
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px; /* Add gap between the boxes */
+        }
+
+        .services-box {
+            width: 30%; /* Set width to 30% for three boxes in a row */
+            box-sizing: border-box;
+            overflow: hidden; /* Ensure that box dimensions don't change on hover */
+            transition: transform 0.3s; /* Add a smooth transition effect */
+        }
+
+        .services-box:hover {
+            transform: scale(1.05); /* Increase the size on hover */
+        }
+
+        .services-box img {
+            width: 100%;
+            height: auto;
+        }
+
+        .back-icon {
+            text-align: left;
+             /* Optional background color */
+        }
+
+        .back-icon a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="heading">Latest <span>Achievements</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <img src="images/c1.jpg" alt="">
+        </div>
+        <div class="services-box">
+            <img src="images/c2.jpg" alt="">
+        </div>
+        <div class="services-box">
+            <img src="images/c3.jpg" alt="">
+        </div>
+        <div class="services-box">
+            <img src="images/c4.jpg" alt="">
+        </div>
+        <div class="services-box">
+            <img src="images/c5.jpg" alt="">
+        </div>
+        <div class="services-box">
+            <img src="images/c6.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Back Icon -->
+    <div class="back-icon">
+        <a href="index.html"><i class='bx bx-left-arrow'></i> Back</a>
+    </div>
+</body>
+</html>
